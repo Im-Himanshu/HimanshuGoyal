@@ -55,12 +55,12 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-\newcommand{\resumeEducationSubheading}[6]{
+\newcommand{\resumeEducationSubheading}[5]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-      \textit{\small#5} & #6\\
+      \textit{\small#5} \\
     \end{tabular*}\vspace{-8pt}
 }
 
@@ -133,28 +133,49 @@
     \resumeEducationSubheading
       {Indian Institute of Technology, Delhi}{Delhi, India}
       {Bachelor of Technology in Textile Technology;  GPA: 3.20 (8.01/10.0)}{Aug,13 --July,17}
-      {CourseWork : Data Structures \&Algorithm, Machine Learning, Software Designing, MacroEconomics}{}
+      {Coursework : Data Structures \&Algorithm, Machine Learning, Software Designing, Macro-Economics}
+  \resumeSubHeadingListEnd
+  \vspace{-13pt}
+  \resumeSubHeadingListStart
+    \resumeEducationSubheading
+      {Deep Learning Specialization}{ Online}
+      {CourseEra by Andrew NG;  GPA: 3.80 (9.5/10.0)}{ \hspace{-80pt} Oct'19- Jan'20}
+      {Coursework : Neural-Network \& Deep-Learning, Hyper-Parameter Tuning \& Regularization, CNN, Sequence Model}
+  \resumeSubHeadingListEnd
+  \vspace{-13pt}
+  \resumeSubHeadingListStart
+    \resumeEducationSubheading
+      {CFA Level-3 aspirant}{ Pune, India}
+      {Cleared Level-1 and Level-2 in first attempt}{ \hspace{-80pt} Dec'18- Present}
+      {Coursework : Financial Reporting Analysis, Derivatives \& Economics, Portfolio Management }
   \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------------
 \section{Work Experience}
   \resumeSubHeadingListStart
-    \cutomresumeSubheading
-      {CitiGroup, TTS (Software Engineer)} {let See}
-      {Pune, India (Aug,17 - Present)}
+     \cutomresumeSubheading
+      {Citigroup, Technical Analyst} {Treasury \& Trade Solutions, Commodities BU}
+      {Pune,[Aug,17 - Present]}
       \resumeItemListStart
-        \resumeItem{Architecture Designer, TTS APAC}
-          {Oversee and guided nearly 150 application for TTS-APAC region for designing system architecture based on newer technology. Worked on Docker migration of 30 application. Conducted training and guided other developers on coding practises like version-Control, one click Deployment, setting CI-CD pipeline etc. }
-        \resumeItem{Leaded FIRC Revamp}
-          {Lead a team of 4 developers for revamping a monolithic site to MicroService based architecture, single handedly worked on front end to API development, completed the project in record time of 4 months}
-          \resumeItem{Summer'19, TTS Intern Project Lead}
-          {Managed the Intern project for TTS with over 30 candidate, with personally mentoring and guiding two of them.}
-         
-          \resumeItem{Summer'19, AWS onboardign and adoption}
-          {Managed the Intern project for TTS with over 30 candidate, with personally mentoring and guiding two of them. }
-          
-          \resumeItem{EE committie represntative for TTS-APAC Architecture}
-          { COnducted event on EE }
+      
+        \resumeItem{Recommendation Engine}{Designed \& Developed an ML based Recommendation engine to automate the manual entry tasks by upto 75.\%
+        Leading \textbf{Tech4Ops initiative}  to reduce the manual touch points in bank operations.
+        }
+
+        
+        \resumeItem{Micro-Services Architecture revamp}
+          {Lead a team of 4 developers for revamping a monolithic site to MicroService \& MVC based architecture.
+          Completed the Project in a period of 4-month utilizing extensive agile practises.}
+        \resumeItem{SeaShell for Object-Storage}{
+        Developed a S3 API based Object storage solution to reduce load on production boxes by archiving files as objects on to IBM's ObjectStorage.
+        }
+        \resumeItemPointer
+        { Instigated \textbf{AWS cloud desktop} adoption by self-learning \& guiding others on technical know-how of this new tech}
+        \resumeItem{KYC using Blockchain}
+          {Conducted feasibility analysis to leverage block chain to solve the KYC use case in Private Banking industry using other block chain platforms like (Prime chain, BigchainDB, Chain)}
+        \resumeItemPointer{Received an overall \textbf{rating of 2* \& 2*} for last appraisal cycle, awarded only to top 5\% of the employee in CITI}
+        \resumeItemPointer{Received \textbf{Citi Applause Award} \& \textbf{Citi Silver Award} recognizing individual contributions for various initiatives }
+        
       \resumeItemListEnd
       \cutomresumeSubheading
       {CitiGroup, Commodities (Analyst)}{CRM tool Commodities}{Pune, India (Aug,17 - Present)}
@@ -175,30 +196,45 @@
     \resumeSubItem{Technology}
       {Python, Java, Angular, TypeScript, SQL, SpringBoot, Ionic, Android/Ios/Windows(PWA Based),  }
     \resumeSubItem{Tools}
-      {Git,Eclipse, MySql, Jupyter, TensorFlow, DataFrame, TeamCity, AWS, uDeploy}
+      {Eclipse,MySql, Git, Jupyter, TensorFlow, DataFrame, TeamCity, AWS, uDeploy}
+    \resumeSubItem{Theoretical}
+      {Machine-Learning, Deep-Learning, Data-Structures, Financial-Market, Architecture designing}
   \resumeSubHeadingListEnd
 
 \section{Project and Internship}
   \resumeSubHeadingListStart
-    \cutomresumeSubheading
-      {Handwritten Digit Recognition} {Open to all ML Competition} {Nov,16}
-      \resumeItemListStart
-        \resumeItemPointer{Participated in an open to all Kaggle completion for recognizing the hand written number in an image}
-        \resumeItemPointer{Used various Machine-learning technique like Random forest, ANN, CNN implemented in python and R.}
-        \resumeItemPointer{Stand at an all-time best ranking of 120 among thousands of participant world wide}
-      \resumeItemListEnd
+  
       \cutomresumeSubheading
-      {IIT Delhi B-tech Thesis} {Machine learning model for Image recognition} {[Aug’16 - Dec’16]]}
+      {IIT Delhi B-tech Thesis} {Automated Manual task of Textile Research using image processing} {[Aug’16 - Dec’16]]}
       \resumeItemListStart
-        \resumeItemPointer{Automated the task of recognizing type of fiber in blended yarn cross-section image using CNN model.}
-        \resumeItemPointer{Implemented a CNN model in python using Tensor flow, trained the neural network over a dummy data.}
-        \resumeItemPointer{Using this technique, automated a tedious task of marking fibre boundary manually under a microscope.}
-        \resumeItemPointer{Model predicted the type of fibre in a given image and marked all boundary with an R value of .95}
-        \resumeItemPointer{Recognition of all the fibers present in the image with clear boundary detection for area calculation}
-        \resumeItemPointer{Characterization of the detected fibers based on patterns obtained from initial training data in MATLAB®}
+        \resumeItemPointer{ Automated the process of marking microscopic fibre boundary in a yarn cross-section image via Computer Vision}
+        \resumeItemPointer{Generated model was able to distinguish different kind of fibrea \& clearly marked all boundary with an R value of .95}
+        
       \resumeItemListEnd
-    \resumeSubItem{MacroEconomics Paper}
-      {Analysis of direct Benefit Transfer Scheme in India, Co-Author, International Journal, IJETM (Accepted)}
+    \cutomresumeSubheading
+      {Internship, SmallDay Services} {Developed Transliteration tool for Vernacular Languages} {[May-Jul,16]}
+      \resumeItemListStart
+        \resumeItemPointer{Developed a Tries based Decision-tree model which converted text from one given language to other trained languages}
+        \resumeItemPointer{Received a \textbf{Pre-Placement-Offer \& CEO level Award of appreciation} for incredible work \& enthusiasm  }
+        
+      \resumeItemListEnd
+    \cutomresumeSubheading
+      {Handwritten Digit Recognition} {Open to all Kaggle competition} {[Nov-Dec,16]}
+      \resumeItemListStart
+        \resumeItemPointer{Implemented various ML algo like CNN, Random Forest etc. for recognizing the hand written number in an image}
+        \resumeItemPointer{
+        Stand at an all-time best ranking of 120 among thousands of participant world wide}
+      \resumeItemListEnd
+    \cutomresumeSubheading
+      {Data Structures and Algorithms} {Implemented algorithms to solve real world problems} {}
+      \resumeItemListStart
+        \resumeItemPointer{Finding the cheapest \& shortest series of path in a  map for travel-cost optimization b/w two nodes using Dijkstra algo}
+        \resumeItemPointer{ Employed Queuing Theory \& Priority Queue for simulating in-store queuing model and optimizing the number of billing-counter in a store against predicted Average waiting time and probability of having to wait for service}
+      \resumeItemListEnd
+    \cutomresumeSubheading
+      {MacroEconomics Paper} {Analysis of Direct Benefit Transfer Scheme in India, Co-Author, Int. Journal, IJETM} {}
+   
+
     \cutomresumeSubheading
       {Android Apps and games} {Developed many productivity apps} {Nov,16}
       \resumeItemListStart
@@ -206,63 +242,41 @@
         \resumeItemPointer{Developed an app with its complete frontend and backend for complaint registration in a large community}
         \resumeItemPointer{Developed an app for providing course management feature to students teacher in an academic system like IITD}
       \resumeItemListEnd
-      
-      \cutomresumeSubheading
-      {Data Structures and Algorithms} {Solved actual problem using algorithm} {Nov,16}
-      \resumeItemListStart
-        \resumeItemPointer{Calculated the cheapest  shortest series of flight in a given map for traveling b/w two cities using Dijkstra algo}
-        \resumeItemPointer{Simulated queuing model for supermarkets employing Queuing Theory and Priority Queue for optimizing the
-            number of counters in the store against predicted Average waiting time and probability of having to wait for service}
+
       \resumeItemListEnd
     
-    
-    
-    
-    
-    
-    
-    
-    
-  \resumeSubHeadingListEnd
 
 
 %-----------PROJECTS & Internships-----------------
 
-
-\section{Extra-curricular Activities}
+\section{Scholastic Acheivement}
   \resumeSubHeadingListStart
-  \resumeSubItem{NCERT Books for Blind}
-      {Re-designed class 6-8 NCERT book’s experiments for blind students under GOI's "Accessible India Campaign"}
-  \resumeSubItem{Microsoft code fun do}
-      {Participating in 2-day long Hackathon for developing mobile applications, finished in Top 20 teams for android app}
-    \resumeItemListStart
-    \resumeItemPointer{Organized and lead team of volunteers for working on SIC's project under NSS IITD}
-    \resumeItemPointer{Regularly taught a batch of 30 underprivileged students for competitive exams like JEE}
-    \resumeItemListEnd
-      
+    \resumeSubItem{CFA Level-2 cleared} {Cleared both level in first attempt, aspirant for level 3, June 20}
+    \resumeSubItem{Deep-Learning Specialization} {Completed course-Era online deep learning specialization with hands on project}
   \resumeSubHeadingListEnd
 
 
-%-----------PROJECTS & Internships-----------------
-
-\section{Leadership Experience}
-  \resumeSubHeadingListStart
-    \cutomresumeSubheading{Central Team Member, SIC, IIT Delhi:} {Started various social innovation project} {[Apr’15 – Apr’16]}
-      \resumeItemListStart
-        \resumeItemPointer{Collaborated with various NGOs based on 'our skills your money' criterion for working on projects}
-        \resumeItemPointer{Organized various events for elucidating students about social innovation  working with SIC team}
-      \resumeItemListEnd
-    \cutomresumeSubheading{Event coordinator,Antrang-16, IITD:} {Established and maintained budget for events} {[Aug’16 - Dec’16]]}
-  \resumeSubHeadingListEnd
-
-
-%-----------PROJECTS & Internships-----------------
-
-\section{Self-Projects}
+\section{Engagements}
   \resumeSubHeadingListStart
     \resumeSubItem{Verboculary}
-      {Developed an multi-platform application for user to help remember the English with all Major dictionary support built in}
+      {Developed a vocabulary building app, which allow user to learn words in order of their importance for given exam. Developed the word ranking algorithm by analysing a large database related to given exam resources}
+    \resumeSubItem{Engineering Excellence, Level-2 Award }
+      {Awarded with engineering excellence level-2 award for showing skills related to agile development and following good coding practises}
+    \resumeSubItem{President, Social Innovation cell, IIT-D:} { Developed products for solving social problems with innovation }
+      \resumeItemListStart
+        \resumeItemPointer{Lead teams of tech volunteer from IIT-Delhi to successfully develop various products for social good like 2048 Games for Blind, Affordable Blood Donation bed, Food-Waste management by in-house Biogas plant etc.}
+        \resumeItemPointer{Taught a batch of 30 underprivileged students regularly for competitive exams like IIT-JEE }
+      \resumeItemListEnd
+    \resumeSubItem{Accessible India Campaign}
+      {Redesigned NCERT text-book experiment for braille version of book by HR ministry}
+    \resumeSubItem{Microsoft code fun do}
+      {2-day long Hackathon for developing mobile apps, finished in Top 20 teams for android app}
+    
+    \resumeSubItem{Event coordinator,Antarang-16, IITD:} {Established and maintained budget for annual departmental fest.}
+
+      
   \resumeSubHeadingListEnd
+
 
 \section{Skills and Interest}
   \resumeSubHeadingListStart
